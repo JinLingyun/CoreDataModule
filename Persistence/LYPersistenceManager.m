@@ -7,7 +7,6 @@
 //
 
 #import "LYPersistenceManager.h"
-#import "NSManagedObjectContext+RKAdditions.h"
 
 @interface LYPersistenceManager ()
 

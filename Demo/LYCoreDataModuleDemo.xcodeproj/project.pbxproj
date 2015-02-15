@@ -22,6 +22,8 @@
 		849616421A908D690089A820 /* LYChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496163D1A908D690089A820 /* LYChatMessage.m */; };
 		849616431A908D690089A820 /* LYChatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496163F1A908D690089A820 /* LYChatSession.m */; };
 		849616441A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849616401A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld */; };
+		849616481A90AD0F0089A820 /* LYPersistenceManager+MessageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 849616471A90AD0F0089A820 /* LYPersistenceManager+MessageService.m */; };
+		8496164D1A90B2B20089A820 /* LYPersistenceManager+SessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496164C1A90B2B20089A820 /* LYPersistenceManager+SessionService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		8496163E1A908D690089A820 /* LYChatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYChatSession.h; sourceTree = "<group>"; };
 		8496163F1A908D690089A820 /* LYChatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYChatSession.m; sourceTree = "<group>"; };
 		849616411A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LYCoreDataModuleDemo.xcdatamodel; sourceTree = "<group>"; };
+		849616461A90AD0F0089A820 /* LYPersistenceManager+MessageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYPersistenceManager+MessageService.h"; sourceTree = "<group>"; };
+		849616471A90AD0F0089A820 /* LYPersistenceManager+MessageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYPersistenceManager+MessageService.m"; sourceTree = "<group>"; };
+		8496164B1A90B2B20089A820 /* LYPersistenceManager+SessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYPersistenceManager+SessionService.h"; sourceTree = "<group>"; };
+		8496164C1A90B2B20089A820 /* LYPersistenceManager+SessionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYPersistenceManager+SessionService.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 				8496160B1A9089AE0089A820 /* Main.storyboard */,
 				8496160E1A9089AE0089A820 /* Images.xcassets */,
 				849616101A9089AE0089A820 /* LaunchScreen.xib */,
+				849616451A90ACAB0089A820 /* PersistenceAdditions */,
 				8496163B1A908D4D0089A820 /* Modal */,
 				8496162B1A908A200089A820 /* Persistence */,
 				849615FE1A9089AE0089A820 /* Supporting Files */,
@@ -170,6 +177,17 @@
 				8496163F1A908D690089A820 /* LYChatSession.m */,
 			);
 			path = Modal;
+			sourceTree = "<group>";
+		};
+		849616451A90ACAB0089A820 /* PersistenceAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				849616461A90AD0F0089A820 /* LYPersistenceManager+MessageService.h */,
+				849616471A90AD0F0089A820 /* LYPersistenceManager+MessageService.m */,
+				8496164B1A90B2B20089A820 /* LYPersistenceManager+SessionService.h */,
+				8496164C1A90B2B20089A820 /* LYPersistenceManager+SessionService.m */,
+			);
+			path = PersistenceAdditions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,10 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8496164D1A90B2B20089A820 /* LYPersistenceManager+SessionService.m in Sources */,
 				849616331A908A200089A820 /* LYPersistenceManager.m in Sources */,
 				849616321A908A200089A820 /* LYPersistenceGlobalHeader.m in Sources */,
 				849616041A9089AE0089A820 /* AppDelegate.m in Sources */,
 				849616431A908D690089A820 /* LYChatSession.m in Sources */,
+				849616481A90AD0F0089A820 /* LYPersistenceManager+MessageService.m in Sources */,
 				849616341A908A200089A820 /* NSManagedObjectContext+RKAdditions.m in Sources */,
 				8496160A1A9089AE0089A820 /* ViewController.m in Sources */,
 				849616421A908D690089A820 /* LYChatMessage.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LYPersistenceGlobalHeader.h"
+#import "NSManagedObjectContext+RKAdditions.h"
 
 @interface LYPersistenceManager : NSObject
 
