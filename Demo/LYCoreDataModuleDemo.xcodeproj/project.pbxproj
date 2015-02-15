@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849616011A9089AE0089A820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849616001A9089AE0089A820 /* main.m */; };
+		849616041A9089AE0089A820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849616031A9089AE0089A820 /* AppDelegate.m */; };
+		8496160A1A9089AE0089A820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849616091A9089AE0089A820 /* ViewController.m */; };
+		8496160D1A9089AE0089A820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496160B1A9089AE0089A820 /* Main.storyboard */; };
+		8496160F1A9089AE0089A820 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8496160E1A9089AE0089A820 /* Images.xcassets */; };
+		849616121A9089AE0089A820 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849616101A9089AE0089A820 /* LaunchScreen.xib */; };
+		8496161E1A9089AE0089A820 /* LYCoreDataModuleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496161D1A9089AE0089A820 /* LYCoreDataModuleDemoTests.m */; };
+		849616281A908A070089A820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849616271A908A070089A820 /* Foundation.framework */; };
+		8496162A1A908A100089A820 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849616291A908A100089A820 /* CoreData.framework */; };
+		849616321A908A200089A820 /* LYPersistenceGlobalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496162D1A908A200089A820 /* LYPersistenceGlobalHeader.m */; };
+		849616331A908A200089A820 /* LYPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496162F1A908A200089A820 /* LYPersistenceManager.m */; };
+		849616341A908A200089A820 /* NSManagedObjectContext+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 849616311A908A200089A820 /* NSManagedObjectContext+RKAdditions.m */; };
+		849616421A908D690089A820 /* LYChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496163D1A908D690089A820 /* LYChatMessage.m */; };
+		849616431A908D690089A820 /* LYChatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496163F1A908D690089A820 /* LYChatSession.m */; };
+		849616441A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849616401A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849616181A9089AE0089A820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849615F31A9089AE0089A820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849615FA1A9089AE0089A820;
+			remoteInfo = LYCoreDataModuleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849615FB1A9089AE0089A820 /* LYCoreDataModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCoreDataModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849615FF1A9089AE0089A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849616001A9089AE0089A820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849616021A9089AE0089A820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849616031A9089AE0089A820 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849616081A9089AE0089A820 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849616091A9089AE0089A820 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8496160C1A9089AE0089A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8496160E1A9089AE0089A820 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849616111A9089AE0089A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849616171A9089AE0089A820 /* LYCoreDataModuleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYCoreDataModuleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8496161C1A9089AE0089A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496161D1A9089AE0089A820 /* LYCoreDataModuleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCoreDataModuleDemoTests.m; sourceTree = "<group>"; };
+		849616271A908A070089A820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		849616291A908A100089A820 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8496162C1A908A200089A820 /* LYPersistenceGlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPersistenceGlobalHeader.h; sourceTree = "<group>"; };
+		8496162D1A908A200089A820 /* LYPersistenceGlobalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPersistenceGlobalHeader.m; sourceTree = "<group>"; };
+		8496162E1A908A200089A820 /* LYPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPersistenceManager.h; sourceTree = "<group>"; };
+		8496162F1A908A200089A820 /* LYPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPersistenceManager.m; sourceTree = "<group>"; };
+		849616301A908A200089A820 /* NSManagedObjectContext+RKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+RKAdditions.h"; sourceTree = "<group>"; };
+		849616311A908A200089A820 /* NSManagedObjectContext+RKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+RKAdditions.m"; sourceTree = "<group>"; };
+		8496163C1A908D690089A820 /* LYChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYChatMessage.h; sourceTree = "<group>"; };
+		8496163D1A908D690089A820 /* LYChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYChatMessage.m; sourceTree = "<group>"; };
+		8496163E1A908D690089A820 /* LYChatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYChatSession.h; sourceTree = "<group>"; };
+		8496163F1A908D690089A820 /* LYChatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYChatSession.m; sourceTree = "<group>"; };
+		849616411A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LYCoreDataModuleDemo.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849615F81A9089AE0089A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496162A1A908A100089A820 /* CoreData.framework in Frameworks */,
+				849616281A908A070089A820 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849616141A9089AE0089A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849615F21A9089AE0089A820 = {
+			isa = PBXGroup;
+			children = (
+				849616291A908A100089A820 /* CoreData.framework */,
+				849616271A908A070089A820 /* Foundation.framework */,
+				849615FD1A9089AE0089A820 /* LYCoreDataModuleDemo */,
+				8496161A1A9089AE0089A820 /* LYCoreDataModuleDemoTests */,
+				849615FC1A9089AE0089A820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849615FC1A9089AE0089A820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849615FB1A9089AE0089A820 /* LYCoreDataModuleDemo.app */,
+				849616171A9089AE0089A820 /* LYCoreDataModuleDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849615FD1A9089AE0089A820 /* LYCoreDataModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				849616021A9089AE0089A820 /* AppDelegate.h */,
+				849616031A9089AE0089A820 /* AppDelegate.m */,
+				849616081A9089AE0089A820 /* ViewController.h */,
+				849616091A9089AE0089A820 /* ViewController.m */,
+				8496160B1A9089AE0089A820 /* Main.storyboard */,
+				8496160E1A9089AE0089A820 /* Images.xcassets */,
+				849616101A9089AE0089A820 /* LaunchScreen.xib */,
+				8496163B1A908D4D0089A820 /* Modal */,
+				8496162B1A908A200089A820 /* Persistence */,
+				849615FE1A9089AE0089A820 /* Supporting Files */,
+			);
+			path = LYCoreDataModuleDemo;
+			sourceTree = "<group>";
+		};
+		849615FE1A9089AE0089A820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849615FF1A9089AE0089A820 /* Info.plist */,
+				849616001A9089AE0089A820 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8496161A1A9089AE0089A820 /* LYCoreDataModuleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8496161D1A9089AE0089A820 /* LYCoreDataModuleDemoTests.m */,
+				8496161B1A9089AE0089A820 /* Supporting Files */,
+			);
+			path = LYCoreDataModuleDemoTests;
+			sourceTree = "<group>";
+		};
+		8496161B1A9089AE0089A820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8496161C1A9089AE0089A820 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8496162B1A908A200089A820 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8496162C1A908A200089A820 /* LYPersistenceGlobalHeader.h */,
+				8496162D1A908A200089A820 /* LYPersistenceGlobalHeader.m */,
+				8496162E1A908A200089A820 /* LYPersistenceManager.h */,
+				8496162F1A908A200089A820 /* LYPersistenceManager.m */,
+				849616301A908A200089A820 /* NSManagedObjectContext+RKAdditions.h */,
+				849616311A908A200089A820 /* NSManagedObjectContext+RKAdditions.m */,
+			);
+			name = Persistence;
+			path = ../../Persistence;
+			sourceTree = "<group>";
+		};
+		8496163B1A908D4D0089A820 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				849616401A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld */,
+				8496163C1A908D690089A820 /* LYChatMessage.h */,
+				8496163D1A908D690089A820 /* LYChatMessage.m */,
+				8496163E1A908D690089A820 /* LYChatSession.h */,
+				8496163F1A908D690089A820 /* LYChatSession.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849615FA1A9089AE0089A820 /* LYCoreDataModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849616211A9089AE0089A820 /* Build configuration list for PBXNativeTarget "LYCoreDataModuleDemo" */;
+			buildPhases = (
+				849615F71A9089AE0089A820 /* Sources */,
+				849615F81A9089AE0089A820 /* Frameworks */,
+				849615F91A9089AE0089A820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYCoreDataModuleDemo;
+			productName = LYCoreDataModuleDemo;
+			productReference = 849615FB1A9089AE0089A820 /* LYCoreDataModuleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849616161A9089AE0089A820 /* LYCoreDataModuleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849616241A9089AE0089A820 /* Build configuration list for PBXNativeTarget "LYCoreDataModuleDemoTests" */;
+			buildPhases = (
+				849616131A9089AE0089A820 /* Sources */,
+				849616141A9089AE0089A820 /* Frameworks */,
+				849616151A9089AE0089A820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849616191A9089AE0089A820 /* PBXTargetDependency */,
+			);
+			name = LYCoreDataModuleDemoTests;
+			productName = LYCoreDataModuleDemoTests;
+			productReference = 849616171A9089AE0089A820 /* LYCoreDataModuleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849615F31A9089AE0089A820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LY;
+				TargetAttributes = {
+					849615FA1A9089AE0089A820 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					849616161A9089AE0089A820 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 849615FA1A9089AE0089A820;
+					};
+				};
+			};
+			buildConfigurationList = 849615F61A9089AE0089A820 /* Build configuration list for PBXProject "LYCoreDataModuleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849615F21A9089AE0089A820;
+			productRefGroup = 849615FC1A9089AE0089A820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849615FA1A9089AE0089A820 /* LYCoreDataModuleDemo */,
+				849616161A9089AE0089A820 /* LYCoreDataModuleDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849615F91A9089AE0089A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496160D1A9089AE0089A820 /* Main.storyboard in Resources */,
+				849616121A9089AE0089A820 /* LaunchScreen.xib in Resources */,
+				8496160F1A9089AE0089A820 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849616151A9089AE0089A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849615F71A9089AE0089A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849616331A908A200089A820 /* LYPersistenceManager.m in Sources */,
+				849616321A908A200089A820 /* LYPersistenceGlobalHeader.m in Sources */,
+				849616041A9089AE0089A820 /* AppDelegate.m in Sources */,
+				849616431A908D690089A820 /* LYChatSession.m in Sources */,
+				849616341A908A200089A820 /* NSManagedObjectContext+RKAdditions.m in Sources */,
+				8496160A1A9089AE0089A820 /* ViewController.m in Sources */,
+				849616421A908D690089A820 /* LYChatMessage.m in Sources */,
+				849616441A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld in Sources */,
+				849616011A9089AE0089A820 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849616131A9089AE0089A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496161E1A9089AE0089A820 /* LYCoreDataModuleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849616191A9089AE0089A820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849615FA1A9089AE0089A820 /* LYCoreDataModuleDemo */;
+			targetProxy = 849616181A9089AE0089A820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8496160B1A9089AE0089A820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8496160C1A9089AE0089A820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849616101A9089AE0089A820 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849616111A9089AE0089A820 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8496161F1A9089AE0089A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849616201A9089AE0089A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849616221A9089AE0089A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYCoreDataModuleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849616231A9089AE0089A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYCoreDataModuleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849616251A9089AE0089A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LYCoreDataModuleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCoreDataModuleDemo.app/LYCoreDataModuleDemo";
+			};
+			name = Debug;
+		};
+		849616261A9089AE0089A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LYCoreDataModuleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYCoreDataModuleDemo.app/LYCoreDataModuleDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849615F61A9089AE0089A820 /* Build configuration list for PBXProject "LYCoreDataModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496161F1A9089AE0089A820 /* Debug */,
+				849616201A9089AE0089A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849616211A9089AE0089A820 /* Build configuration list for PBXNativeTarget "LYCoreDataModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849616221A9089AE0089A820 /* Debug */,
+				849616231A9089AE0089A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849616241A9089AE0089A820 /* Build configuration list for PBXNativeTarget "LYCoreDataModuleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849616251A9089AE0089A820 /* Debug */,
+				849616261A9089AE0089A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		849616401A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				849616411A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodel */,
+			);
+			currentVersion = 849616411A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodel */;
+			path = LYCoreDataModuleDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 849615F31A9089AE0089A820 /* Project object */;
+}
