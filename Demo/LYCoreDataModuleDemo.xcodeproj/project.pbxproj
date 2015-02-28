@@ -24,6 +24,7 @@
 		849616441A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849616401A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld */; };
 		849616481A90AD0F0089A820 /* LYPersistenceManager+MessageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 849616471A90AD0F0089A820 /* LYPersistenceManager+MessageService.m */; };
 		8496164D1A90B2B20089A820 /* LYPersistenceManager+SessionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496164C1A90B2B20089A820 /* LYPersistenceManager+SessionService.m */; };
+		84B97F4B1AA1D1ED004C4679 /* NSManagedObject+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B97F4A1AA1D1ED004C4679 /* NSManagedObject+RKAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		849616471A90AD0F0089A820 /* LYPersistenceManager+MessageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYPersistenceManager+MessageService.m"; sourceTree = "<group>"; };
 		8496164B1A90B2B20089A820 /* LYPersistenceManager+SessionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYPersistenceManager+SessionService.h"; sourceTree = "<group>"; };
 		8496164C1A90B2B20089A820 /* LYPersistenceManager+SessionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYPersistenceManager+SessionService.m"; sourceTree = "<group>"; };
+		84B97F491AA1D1ED004C4679 /* NSManagedObject+RKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+RKAdditions.h"; sourceTree = "<group>"; };
+		84B97F4A1AA1D1ED004C4679 /* NSManagedObject+RKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+RKAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				8496162F1A908A200089A820 /* LYPersistenceManager.m */,
 				849616301A908A200089A820 /* NSManagedObjectContext+RKAdditions.h */,
 				849616311A908A200089A820 /* NSManagedObjectContext+RKAdditions.m */,
+				84B97F491AA1D1ED004C4679 /* NSManagedObject+RKAdditions.h */,
+				84B97F4A1AA1D1ED004C4679 /* NSManagedObject+RKAdditions.m */,
 			);
 			name = Persistence;
 			path = ../../Persistence;
@@ -298,6 +303,7 @@
 				849616481A90AD0F0089A820 /* LYPersistenceManager+MessageService.m in Sources */,
 				849616341A908A200089A820 /* NSManagedObjectContext+RKAdditions.m in Sources */,
 				8496160A1A9089AE0089A820 /* ViewController.m in Sources */,
+				84B97F4B1AA1D1ED004C4679 /* NSManagedObject+RKAdditions.m in Sources */,
 				849616421A908D690089A820 /* LYChatMessage.m in Sources */,
 				849616441A908D690089A820 /* LYCoreDataModuleDemo.xcdatamodeld in Sources */,
 				849616011A9089AE0089A820 /* main.m in Sources */,
